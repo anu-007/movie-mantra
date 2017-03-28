@@ -5,33 +5,51 @@
 
     		<div class="card radius shadowDepth1">
     			<div class="card__image border-tlr-radius">
+            {{#if Poster}}
     				<img src={{Poster}} alt="image" class="border-tlr-radius">
+             {{/if}}
                 </div>
 
     			<div class="card__content card__padding">
 
     				<div class="card__meta">
+              {{#if Genre}}
               <h5>{{Genre}}</h5>
+              {{/if}}
+              {{#if Rated}}
     					<h5>{{Rated}}</h5>
+              {{/if}}
+              {{#if Released}}
                         <time>{{Released}}</time>
+                        {{/if}}
     				</div>
 
     				<article class="card__article">
+              {{#if imdbID}}
 	    				<h2><a href="http://www.imdb.com/title/{{imdbID}}/">{{Title}}</a></h2>
+              {{/if}}
+              {{#if imdbRating}}
                 <h4 class="fa fa-star" href="http://www.imdb.com/title/{{imdbID}}/">{{imdbRating}}  IMDB</h4>
-	    				<p>{{Plot}}</p>
+            {{/if}}
+            {{#if Plot}}
+              <p>{{Plot}}</p>
+              {{/if}}
 	    			</article>
     			</div>
 
     			<div class="card__action">
             <div class="card__author">
               <div class="card__author-content">
+                {{#if Actors}}
     						Actors <p><b>{{Actors}}</b></p>
+                {{/if}}
     					</div>
             </div>
     				<div class="card__author">
     					<div class="card__author-content">
+                {{#if Director}}
     						Director <p><b>{{Director}}</b></p>
+                {{/if}}
     					</div>
     				</div>
     			</div>
