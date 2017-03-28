@@ -1,0 +1,39 @@
+<a href="movie" class="jelly">Find another!!</a>
+<br/>
+
+<div class="wrapper">
+
+    		<div class="card radius shadowDepth1">
+    			<div class="card__image border-tlr-radius">
+    				<img src={{Poster}} alt="image" class="border-tlr-radius">
+                </div>
+
+    			<div class="card__content card__padding">
+
+    				<div class="card__meta">
+              <h5>{{Genre}}</h5>
+    					<h5>{{Rated}}</h5>
+                        <time>{{Released}}</time>
+    				</div>
+
+    				<article class="card__article">
+	    				<h2><a href="http://www.imdb.com/title/{{imdbID}}/">{{Title}}</a></h2>
+                <h4 class="fa fa-star" href="http://www.imdb.com/title/{{imdbID}}/">{{imdbRating}}  IMDB</h4>
+	    				<p>{{Plot}}</p>
+	    			</article>
+    			</div>
+
+    			<div class="card__action">
+            <div class="card__author">
+              <div class="card__author-content">
+    						Actors <p><b>{{Actors}}</b></p>
+    					</div>
+            </div>
+    				<div class="card__author">
+    					<div class="card__author-content">
+    						Director <p><b>{{Director}}</b></p>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>

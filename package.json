@@ -1,0 +1,19 @@
+{
+  "name": "movie-mantra",
+  "version": "1.0.0",
+  "description": "a simple movie catalogue app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anubhuti verma",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "random-movie": "^1.4.3",
+    "handlebars": "^4.0.5",
+    "express-handlebars": "^3.0.0"
+  }
+}
