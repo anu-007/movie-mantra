@@ -4,7 +4,12 @@
   "description": "a simple movie catalogue app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/anu-007/movie-mantra.git"
   },
   "author": "Anubhuti verma",
   "license": "ISC",
