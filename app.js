@@ -25,8 +25,6 @@ app.get('/movie',function(req,res){
 });
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT ||3000, function () {
   console.log('Example app listening on port 3000!')
 });
-
-var DEFAULT_PORT = process.env.PORT || 8000;
